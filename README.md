@@ -12,6 +12,7 @@
 | [Linux 服务器运维](linux/linux-commands.md) | 系统状态、进程、systemctl、Nginx、防火墙、SSH、网络、磁盘日志、权限、定时任务 |
 | [Windows 桌面运维](windows/windows-commands.md) | 网络排查、系统激活、设备驱动、磁盘清理、AD 域、远程协助、软件安装、蓝屏排查 |
 | [Docker 容器运维](docker/docker-commands.md) | 镜像管理、容器生命周期、数据卷持久化、Compose、监控、清理与安全 |
+| [Git 常用命令](git/git-commands.md) | add/commit/push/pull 日常流程、查看与回退、面试话术 |
 
 ## 特点
 
