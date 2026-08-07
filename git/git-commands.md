@@ -30,7 +30,8 @@ git stash                     改到一半先存起来，紧急处理完再 git 
 
 ## 备份（丢了能找回来）
 
-commit 本身就是第一层备份（本地历史）；push 到云端是第二层（防硬盘坏） 不 push 也完全能用：git init 之后本地随便 commit，GitHub 只是多一份云端副本
+commit 本身就是第一层备份（本地历史）；push 到云端是第二层（防硬盘坏）
+不 push 也完全能用：git init 之后本地随便 commit，GitHub 只是多一份云端副本
 换电脑/硬盘坏了：git clone https://github.com/用户名/仓库.git 全部历史拉回来
 可以推多个远端做双备份（如 GitHub + Gitee）
 运维神器 etckeeper：自动用 Git 管 /etc 配置目录，改配置自动留痕
@@ -66,4 +67,3 @@ Windows 上纯大小写改名要用 git mv 强制（git mv README.md readme.md�
 「我用 Git 管理配置和脚本，改配置前先 commit 存档，出问题用 revert/restore 回滚；
 日常 push 到远端就是备份，换机器 clone 就能恢复全部历史；
 公司里常用 GitLab 私有部署，GitHub 放个人仓库。」
-
